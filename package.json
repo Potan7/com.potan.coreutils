@@ -1,0 +1,20 @@
+{
+    "name": "com.potan.coreutils",
+    "version": "1.0.0",
+    "displayName": "Potan CoreUtils",
+    "description": "A collection of essential, high-performance Unity utilities including a zero-allocation EventBus, conditional DevLog, and various Singleton patterns.",
+    "unity": "2022.3",
+    "author": {
+        "name": "Potan",
+        "url": "https://github.com/Potan7"
+    },
+    "category": "Utilities",
+    "keywords": [
+        "utility",
+        "eventbus",
+        "singleton",
+        "log",
+        "performance"
+    ],
+    "license": "MIT"
+}
