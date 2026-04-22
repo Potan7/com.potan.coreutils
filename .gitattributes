@@ -1,2 +1,18 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# 깃허브 언어 통계 및 라이선스 감지에서 .meta 파일 제외
+*.meta linguist-generated=true
+*.meta linguist-vendored=true
+
+# 텍스트 파일들에 대한 LF(Linux) 줄바꿈 강제 (윈도우/맥 혼용 방지)
+*.cs text eol=lf
+*.json text eol=lf
+*.asmdef text eol=lf
+*.md text eol=lf
+LICENSE text eol=lf
+
+# 유니티 대용량 파일 처리 (필요시)
+*.unity binary
+*.prefab binary
+*.asset binary
+*.mat binary
+*.png binary
+*.jpg binary
